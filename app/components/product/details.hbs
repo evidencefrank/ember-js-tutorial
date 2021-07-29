@@ -1,5 +1,5 @@
 <div class="product-details">
-  <!--Header-->
+
   <section>
     <h3>Beats Solo Wireless Headphone</h3>
     <div class="text-warning">
@@ -10,13 +10,20 @@
       <i class="fa fa-star-half-o"></i>
     </div>
   </section>
-  <!--Header-->
 
-  <!--Price-->
   <section>
     <del class="small text-black-50">$199.95</del>
     <i class="text-danger font-weight-bold">$99.98</i>
   </section>
-  <!--Price-->
+
+  <div>
+    <h5>Color</h5>
+    <div class="product-colors active-{{@color}}">
+      <span class="product-color color-red"
+        {{on "click" (fn @onChangeColor "red")}}></span>
+      <span class="product-color color-black"
+        {{on "click" (fn @onChangeColor "black")}}></span>
+    </div>
+  </div>
 
 </div>
