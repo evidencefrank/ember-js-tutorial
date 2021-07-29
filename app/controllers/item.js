@@ -17,7 +17,7 @@ export default class ItemController extends Controller {
   }
 
   @action
-  toggleZoom(){
+  toggleZoom() {
     this.isZoomed = !this.isZoomed;
   }
 }
