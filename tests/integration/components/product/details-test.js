@@ -11,13 +11,13 @@ module('Integration | Component | product/details', function (hooks) {
     // Handle any actions with this.set('myAction', function(val) { ... });
     this.set('price', {
       original: 50,
-      current: 30
+      current: 30,
     });
 
-    this.set('onChangeColor', function(color) {
+    this.set('onChangeColor', function (color) {
       assert.equal(color, 'red');
     });
-    this.set('colors', [{color: 'red'}]);
+    this.set('colors', [{ color: 'red' }]);
 
     await render(hbs`
         <Product::Details

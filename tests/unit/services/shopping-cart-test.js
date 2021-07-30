@@ -10,7 +10,7 @@ module('Unit | Service | shopping-cart', function (hooks) {
     assert.ok(service);
   });
 
-  test('addItem works', function(assert) {
+  test('addItem works', function (assert) {
     const service = this.owner.lookup('service:shopping-cart');
     assert.equal(service.itemList.length, 0, 'item list is empty');
 
