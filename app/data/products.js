@@ -20,11 +20,11 @@ export const products = [
     colors: [
       {
         color: 'red',
-        image: '/assets/images/beats-solo-red.png',
+        image: 'assets/images/beats-solo-red.png',
       },
       {
         color: 'black',
-        image: '/assets/images/beats-solo-black.png',
+        image: 'assets/images/beats-solo-black.png',
       },
     ],
   },
@@ -45,7 +45,7 @@ export const products = [
     colors: [
       {
         color: 'white',
-        image: '/assets/images/nike-af1-white.png',
+        image: 'assets/images/nike-af1-white.png',
       },
     ],
   },
